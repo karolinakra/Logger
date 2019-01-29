@@ -53,5 +53,11 @@
   <ItemGroup>
     <Content Include="StaticFiles\test.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FileLogger\FileLogger.csproj">
+      <Project>{c4edb3a9-e2c5-452e-a1d7-7b9fb39b1b0a}</Project>
+      <Name>FileLogger</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
